@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "airbnb-tavily-demo": {
+      "command": "C:\\Users\\sibta\\OneDrive\\Documents\\LearnAAI\\.venv\\Scripts\\python.exe",
+      "args": [
+        "C:\\Users\\sibta\\OneDrive\\Documents\\LearnAAI\\UpdatedLangchain\\mcp_demo_server.py"
+      ]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    }
+  }
+}

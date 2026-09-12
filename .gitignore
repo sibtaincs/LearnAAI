@@ -1,10 +1,74 @@
-# Python-generated files
+.env                    ignored
+.playwright-mcp/        ignored
+.pytest_cache/          ignored
+node_modules/           ignored
+.vscode/mcp.json        trackable
+uv.lock                 trackable
+UpdatedLangchain/*.py   trackable# Python cache and build output
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
 build/
 dist/
 wheels/
-*.egg-info
+*.egg-info/
 
 # Virtual environments
-.venv
+.venv/
+venv/
+env/
+ENV/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Playwright, browser, and MCP generated artifacts
+.playwright-mcp/
+test-results/
+playwright-report/
+blob-report/
+screenshots/
+traces/
+
+# Node and package-manager output
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+
+# Jupyter generated state
+.ipynb_checkpoints/
+
+# VS Code local state
+.vscode/*.json.bak
+.vscode/*.code-workspace
+.history/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.old
