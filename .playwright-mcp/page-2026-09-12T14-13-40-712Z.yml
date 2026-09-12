@@ -1,0 +1,257 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - link [aria-hidden] [ref=e2] [cursor=pointer]:
+      - /url: "#main-container"
+      - text: Go to the content
+    - link [aria-hidden] [ref=e3] [cursor=pointer]:
+      - /url: "#site-footer"
+      - text: Go to the footer
+  - banner [ref=e6]:
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - link [ref=e14] [cursor=pointer]:
+          - /url: https://www.timeout.com/bali
+        - generic [ref=e26] [cursor=pointer]: Bali
+      - generic [ref=e33]:
+        - generic [ref=e34]: Subscribe
+        - link "Search" [ref=e37] [cursor=pointer]:
+          - /url: https://www.timeout.com/bali/search
+        - generic [ref=e42] [cursor=pointer]
+    - navigation [ref=e50]:
+      - list [ref=e51]:
+        - listitem [ref=e52]:
+          - link "Things to do" [ref=e53] [cursor=pointer]:
+            - /url: /bali/things-to-do/best-things-to-do-in-bali
+        - listitem [ref=e54]:
+          - link "Nightlife" [ref=e55] [cursor=pointer]:
+            - /url: /bali/things-to-do/best-nightlife-in-bali
+        - listitem [ref=e56]:
+          - link "Hotels" [ref=e57] [cursor=pointer]:
+            - /url: /bali/hotels/best-hotels-in-bali
+    - generic [ref=e58] [cursor=pointer]
+  - main [ref=e70]:
+    - generic [ref=e71]:
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - heading "We're sorry, we can't find the page that you're looking for" [level=1] [ref=e75]
+            - heading "We have either moved the page or it no longer exists. To help you find your way, here are some search results we think may be of interest." [level=2] [ref=e76]
+          - generic [ref=e77]: Advertising
+        - generic [ref=e81]:
+          - article [ref=e82]:
+            - generic [ref=e83]:
+              - link [ref=e85] [cursor=pointer]:
+                - /url: /bali/nightlife/best-beach-clubs-bali
+                - heading "The best beach clubs in Bali for epic parties by the sea" [level=3] [ref=e86]
+              - list [ref=e89]:
+                - listitem [ref=e90]:
+                  - generic [ref=e91]: Nightlife
+              - 'link "The best beach clubs in Bali for epic parties by the sea Photograph: Mari Beach Club Bali" [ref=e93] [cursor=pointer]':
+                - /url: /bali/nightlife/best-beach-clubs-bali
+                - img "The best beach clubs in Bali for epic parties by the sea" [ref=e95]
+                - generic [ref=e96]: "Photograph: Mari Beach Club Bali"
+              - generic [ref=e98]: "Salt and pepper, Batman and Robin, Bali and beach clubs. If you didn’t guess, we’re listing things that go best together in pairs. And, when you’re heading to the Island of the Gods, it’s practically a rite of passage to check out Bali’s coolest beach clubs. While beach clubs in Bali have been around since 2000 (the first one being Seminyak’s Ku De Ta), the number of new spots popping up has made whittling down a shortlist of must-visits a little trickier. Not sure which postcard-perfect backdrop deserves your company on your next trip to Bali? Read on for our top picks across the island.RECOMMENDED: The 14 most unforgettable beaches in Bali The best resorts in Bali for the perfect tropical escapeThe best Airbnbs in Bali that will blow your mind"
+          - article [ref=e101]:
+            - generic [ref=e102]:
+              - link [ref=e104] [cursor=pointer]:
+                - /url: /bali/things-to-do/best-things-to-do-in-bali
+                - heading "The best things to do in Bali, from hanging with monkeys to mountain sunrises" [level=3] [ref=e105]
+              - list [ref=e108]:
+                - listitem [ref=e109]:
+                  - generic [ref=e110]: Things to do
+              - 'link "The best things to do in Bali, from hanging with monkeys to mountain sunrises Photograph: Shutterstock" [ref=e112] [cursor=pointer]':
+                - /url: /bali/things-to-do/best-things-to-do-in-bali
+                - img "The best things to do in Bali, from hanging with monkeys to mountain sunrises" [ref=e114]
+                - generic [ref=e115]: "Photograph: Shutterstock"
+              - generic [ref=e117]: Bali is one of the world’s great tropical hideaways. An adventure seeker’s paradise and a spiritual sanctuary rolled into one, it’s a destination that appeals to families and retirees as much as it does to digital nomads and young hedonists. And while there are certain destinations verging on overtouristed, when you venture outside of the usual spots you’ll find that Bali lives up to its reputation as one of the world’s most beautiful islands. So what are the best things to do in Bali? We’ve rounded up a perfect mix of Bali’s best experiences, from the justly popular to the unexpectedly exciting. With enough stuff to inspire the most tireless adrenaline junkie or the most demanding culture vulture, this locally-curated list will turn a visit to the Island of the Gods into a heavenly vacation. RECOMMENDED:🛏 The best hotels in Bali🏝 The best beaches in Bali📍 Where to stay in Bali🎉 Where to party in Bali 🏠 The best Airbnbs in Bali Planning your next trip? Check out our latest travel guides, written by local experts. This article includes affiliate links. These links have no influence on our editorial content. For more information, see our affiliate guidelines.
+          - article [ref=e120]:
+            - generic [ref=e121]:
+              - link [ref=e123] [cursor=pointer]:
+                - /url: /bali/things-to-do/how-to-spend-48-hours-in-bali
+                - heading "How to spend 48 hours in Bali" [level=3] [ref=e124]
+              - list [ref=e127]:
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: Things to do
+              - 'link "How to spend 48 hours in Bali Photograph: Zest" [ref=e131] [cursor=pointer]':
+                - /url: /bali/things-to-do/how-to-spend-48-hours-in-bali
+                - img "How to spend 48 hours in Bali" [ref=e133]
+                - generic [ref=e134]: "Photograph: Zest"
+              - generic [ref=e136]: "Craving a Bali getaway but running low on annual leave? Don’t worry - this 48-hour itinerary is your ticket to a whirlwind island adventure. All you have to do is book a Friday afternoon flight and you'll land just in time for a sunset cocktail. From our personal favourites and iconic must-sees to the latest hotspots, we’ve curated a seamless blend of food, nature, relaxation, and culture to make the most of your short escape. Trust us, this guide will give you a taste of Bali that’ll leave you already planning your next trip. READ MORE: An essential guide to Bali for first-time visitors and The absolute best things to do in Bali"
+          - article [ref=e139]:
+            - generic [ref=e140]:
+              - link [ref=e142] [cursor=pointer]:
+                - /url: /bali/things-to-do/the-best-scenic-hikes-and-trails-in-bali
+                - heading "The best scenic hikes and trails in Bali" [level=3] [ref=e143]
+              - list [ref=e146]:
+                - listitem [ref=e147]:
+                  - generic [ref=e148]: Things to do
+              - 'link "The best scenic hikes and trails in Bali Photograph: Alice McDonnell/Shutterstock" [ref=e150] [cursor=pointer]':
+                - /url: /bali/things-to-do/the-best-scenic-hikes-and-trails-in-bali
+                - img "The best scenic hikes and trails in Bali" [ref=e152]
+                - generic [ref=e153]: "Photograph: Alice McDonnell/Shutterstock"
+              - generic [ref=e155]: "Bali’s beauty goes far beyond its sandy shores and vibrant towns; it extends deep into its forests, up its volcanic peaks, and along its breathtaking coastal cliffs. From adrenaline-pumping ascents to tranquil jungle strolls, these hikes in Bali offer a slice of adventure with unmatched views. Whether you’re chasing sunrises atop volcanoes, wandering lush rice terraces, or standing on the edge of dramatic ocean cliffs, these trails promise experiences as rich as its culture. For those who crave more from Bali than massages, cocktails by the beach, and plates of nasi goreng, this guide is for you. READ MORE: Beautiful waterfalls in Bali that are totally worth the hike and The most stunning temples in Bali"
+          - article [ref=e158]:
+            - generic [ref=e159]:
+              - link [ref=e161] [cursor=pointer]:
+                - /url: /bali/hotels/best-hotels-in-bali
+                - heading "The 14 best hotels in Bali from luxury resorts to affordable stays" [level=3] [ref=e162]
+              - list [ref=e165]:
+                - listitem [ref=e166]:
+                  - generic [ref=e167]: Hotels
+              - 'link "The 14 best hotels in Bali from luxury resorts to affordable stays Courtesy: Booking.com" [ref=e169] [cursor=pointer]':
+                - /url: /bali/hotels/best-hotels-in-bali
+                - img "The 14 best hotels in Bali from luxury resorts to affordable stays" [ref=e171]
+                - generic [ref=e172]: "Courtesy: Booking.com"
+              - generic [ref=e174]: "Bali is bustling with hotel options - seriously, it’s kind of overwhelming. From luxurious beachside resorts, perfect for honeymoon escapes, to secluded hilltop retreats with all the necessities for a solo traveller, the options are as diverse as the island itself. If you’re feeling adventurous, you could book multiple Bali hotels and explore different vibes throughout your stay. Sure, it takes a bit of planning, but trust us, it’s worth it. Basically, what we’re trying to say is that no matter where you land, Bali’s got you covered with stunning rice terraces, wild jungle escapades, and those Instagram-worthy white sandy beaches. The only thing that might outnumber the amazing hotels here is the list of fantastic things to do. To help you plan the perfect adventure, our team of local editors and travellers have handpicked our top Bali hotels. Whether you’re eyeing the surfers’ paradise, Canggu, discovering tranquillity in Ubud, or diving into Seminyak’s vibrant scene, we’ve narrowed down the choices to save you valuable time. So, pack your bags, soak up the sun, and get ready to experience the unique blend of natural beauty and culture that Bali offers. RECOMMENDED: ☀️ Click here to learn the 19 best things to do in Bali🏠 Check out the best Airbnbs in Bali🌴 Discover the best hotels in Ubud🏖️ Explore the best hotels in Seminyak Where to stay in Bali Who makes the cut? While we might not stay in every hotel featured below, we've based our list on top reviews and..."
+          - article [ref=e177]:
+            - generic [ref=e178]:
+              - link [ref=e180] [cursor=pointer]:
+                - /url: /bali/things-to-do/best-nightlife-in-bali
+                - heading "The best places to party in Bali" [level=3] [ref=e181]
+              - list [ref=e184]:
+                - listitem [ref=e185]:
+                  - generic [ref=e186]: Things to do
+              - 'link "The best places to party in Bali Photograph: Motel Mexicola/Facebook" [ref=e188] [cursor=pointer]':
+                - /url: /bali/things-to-do/best-nightlife-in-bali
+                - img "The best places to party in Bali" [ref=e190]
+                - generic [ref=e191]: "Photograph: Motel Mexicola/Facebook"
+              - generic [ref=e193]: "Bali’s nightlife is almost as legendary as its beaches, blending tropical vibes with world-class venues and a unique mix of chill and thrill. As the sun dips below the horizon, the island transforms into a haven of oceanfront clubs, rooftop bars, and live music spots that cater to every mood, from laid-back lounges to pulse-pounding dance floors. With Bali’s endless summer climate, daytime parties spill seamlessly into the night, with a vibrant scene that kicks off early and often keeps on going until dawn. After a day spent exploring temples, surfing waves, or just lounging on the beach, dive into Bali’s nightlife. Whether you're up for cocktails under the stars or dancing all night, hit up these clubs and bars and prepare to throw some shapes. READ MORE: The best beach clubs in Bali for epic parties by the sea and The best hotels in Bali from luxury resorts to affordable stays"
+          - article [ref=e196]:
+            - generic [ref=e197]:
+              - link [ref=e199] [cursor=pointer]:
+                - /url: /bali/clubs/finns-beach-club
+                - heading "Finns Beach Club" [level=3] [ref=e200]
+              - list [ref=e203]:
+                - listitem [ref=e204]:
+                  - generic [ref=e205]: Clubs
+                - listitem [ref=e206]:
+                  - generic [ref=e207]: Bali
+              - 'link "Finns Beach Club Photograph: Finns Beach Club" [ref=e209] [cursor=pointer]':
+                - /url: /bali/clubs/finns-beach-club
+                - img "Finns Beach Club" [ref=e211]
+                - generic [ref=e212]: "Photograph: Finns Beach Club"
+              - generic [ref=e214]: Finns Beach Club is a crowd-pleaser in every sense. Sprawling over 170 metres of beachfront, it's home to multiple pools, swim-up bars, and endless Instagrammable backdrops. Undoubtedly the classic choice when it comes to Bali beach clubs, Finn's is just as much fun on a casual Tuesday as it is on a Saturday night. Come here for all-day parties, excellent margaritas, and DJ sets from a great range of international names. If you're looking for something a little more luxe, there's also the VIP version right next door.
+          - article [ref=e217]:
+            - generic [ref=e218]:
+              - link [ref=e220] [cursor=pointer]:
+                - /url: /bali/things-to-do/west-bali-guide-under-the-radar-spots
+                - 'heading "West Bali: 7 under-the-radar spots to visit" [level=3] [ref=e221]'
+              - list [ref=e224]:
+                - listitem [ref=e225]:
+                  - generic [ref=e226]: Things to do
+              - 'link "West Bali: 7 under-the-radar spots to visit Mark Eveleigh" [ref=e228] [cursor=pointer]':
+                - /url: /bali/things-to-do/west-bali-guide-under-the-radar-spots
+                - 'img "West Bali: 7 under-the-radar spots to visit" [ref=e230]'
+                - generic [ref=e231]: Mark Eveleigh
+              - generic [ref=e233]: "You might find it hard to believe that there’s still a part of Bali where vast uninhabited jungles exist and where you can walk for hours along a seemingly endless coconut-fringed beach without seeing a single tourist or sun lounger. This island has a reputation for being overcrowded and overdeveloped; yet, West Bali remains one of the most breathtakingly beautiful and culturally fascinating places on the planet. Here's all you need to know about visiting Bali's last frontier. RECOMMENDED: How to spend 48 blissful hours in Bali and The best cafés in Bali to sip, snack, and soak up the sun"
+          - article [ref=e236]:
+            - generic [ref=e237]:
+              - link [ref=e239] [cursor=pointer]:
+                - /url: /bali/clubs/savaya
+                - heading "Savaya" [level=3] [ref=e240]
+              - list [ref=e243]:
+                - listitem [ref=e244]:
+                  - generic [ref=e245]: Clubs
+                - listitem [ref=e246]:
+                  - generic [ref=e247]: Bali
+              - 'link "Savaya Photograph: Savaya Bali" [ref=e249] [cursor=pointer]':
+                - /url: /bali/clubs/savaya
+                - img "Savaya" [ref=e251]
+                - generic [ref=e252]: "Photograph: Savaya Bali"
+              - generic [ref=e254]: Previously known as Omnia, Savaya got a big rebrand a few years back and re-opened with the same cut-out-of-the-ocean pool views but a newly elevated array of music events and cocktails to match. It's hard to top the combo of sunset views, plus your favourite DJ set, plus a dip in the water when you're partying at Savaya. Andif you're into electronic music, this beach club is a top spot. While it's a little more expensive than your standard Bali beach club, it has a range of seating options to suit all budgets, from pool loungers to cabanas and daybeds.
+          - article [ref=e257]:
+            - generic [ref=e258]:
+              - link [ref=e260] [cursor=pointer]:
+                - /url: /bali/health-and-beauty/best-gyms-in-bali
+                - heading "The best gyms in Bali for strength, CrossFit, and more" [level=3] [ref=e261]
+              - list [ref=e264]:
+                - listitem [ref=e265]:
+                  - generic [ref=e266]: Health and beauty
+              - 'link "The best gyms in Bali for strength, CrossFit, and more Photograph: Power & Revive, Canggu" [ref=e268] [cursor=pointer]':
+                - /url: /bali/health-and-beauty/best-gyms-in-bali
+                - img "The best gyms in Bali for strength, CrossFit, and more" [ref=e270]
+                - generic [ref=e271]: "Photograph: Power & Revive, Canggu"
+              - generic [ref=e273]: "Bali might be renowned for relaxation but, in recent years, it’s also become a palm-tree-fringed, sunset-backed hotspot for fitness fanatics looking to get their sweat on in style. It doesn’t matter whether you're after a luxury gym with cold towels and ocean views, a hardcore CrossFit session, or a community-focused fitness hub, Bali’s gyms are as diverse as the island itself. One thing you’ll likely notice is that most of Bali’s best gyms are in and around Canggu. Sure, you’ll find gyms all over the island but, for the ocean backdrops and fancy protein shakes, you’ll want to stick to the tourist-heavy areas. Read on for all of our favourites!RECOMMENDED: The best resorts in Bali for the perfect tropical escape and The best beach clubs in Bali for epic parties by the sea"
+      - complementary
+  - generic [ref=e276]:
+    - link "Back to Top" [ref=e278] [cursor=pointer]:
+      - /url: "#top"
+    - generic [ref=e286]:
+      - generic [ref=e287]:
+        - link [ref=e288] [cursor=pointer]:
+          - /url: https://www.timeout.com/bali
+          - img "Timeout" [ref=e289]
+        - generic [ref=e298]:
+          - paragraph [ref=e300]: Get us in your inbox
+          - generic [ref=e301]:
+            - generic [ref=e302]:
+              - generic [ref=e303]: Email address
+              - textbox "Email address" [ref=e304]
+            - button "Subscribe" [ref=e307] [cursor=pointer]
+          - paragraph [ref=e308]:
+            - text: By entering your email address you agree to our
+            - link "Terms of Use" [ref=e309] [cursor=pointer]:
+              - /url: https://www.timeout.com/terms-of-use
+            - text: and
+            - link "Privacy Policy" [ref=e310] [cursor=pointer]:
+              - /url: https://www.timeout.com/privacy-notice
+            - text: and consent to receive emails from Time Out about news, events, offers and partner promotions.
+        - text: "0"
+      - generic [ref=e311]:
+        - generic [ref=e313]:
+          - generic [ref=e314]:
+            - paragraph [ref=e315]:
+              - link "About us" [ref=e316] [cursor=pointer]:
+                - /url: https://www.timeout.com/about
+            - list [ref=e317]:
+              - listitem [ref=e318]:
+                - link "Press office" [ref=e319] [cursor=pointer]:
+                  - /url: https://www.timeout.com/about/latest-news
+              - listitem [ref=e320]:
+                - link "Investor relations" [ref=e321] [cursor=pointer]:
+                  - /url: https://www.timeout.com/about/investors
+              - listitem [ref=e322]:
+                - link "Our awards" [ref=e323] [cursor=pointer]:
+                  - /url: https://www.timeout.com/about/awards
+              - listitem [ref=e324]:
+                - link "Work for Time Out" [ref=e325] [cursor=pointer]:
+                  - /url: https://www.timeout.com/about/work-for-time-out
+              - listitem [ref=e326]:
+                - link "Editorial guidelines" [ref=e327] [cursor=pointer]:
+                  - /url: https://www.timeout.com/about/editorial-guidelines
+              - listitem [ref=e328]:
+                - link "Privacy notice" [ref=e329] [cursor=pointer]:
+                  - /url: https://www.timeout.com/privacy-notice
+              - listitem [ref=e330]:
+                - link "Do not sell my information" [ref=e331] [cursor=pointer]:
+                  - /url: https://www.timeout.com/privacy-notice#CCPA
+              - listitem [ref=e332]:
+                - link "Cookie policy" [ref=e333] [cursor=pointer]:
+                  - /url: https://www.timeout.com/cookie-policy
+              - listitem [ref=e334]:
+                - link "Accessibility statement" [ref=e335] [cursor=pointer]:
+                  - /url: https://www.timeout.com/accessibility-statement
+              - listitem [ref=e336]:
+                - link "Terms of use" [ref=e337] [cursor=pointer]:
+                  - /url: https://www.timeout.com/terms-of-use
+              - listitem [ref=e338]:
+                - link "Modern slavery statement" [ref=e339] [cursor=pointer]:
+                  - /url: https://assets.timeout.com/application/pdf/1d50b1f88ff2e3350a3204f2321d9671/modern_slavery_statement.pdf
+              - listitem [ref=e340]:
+                - link "Manage cookies" [ref=e341] [cursor=pointer]:
+                  - /url: ""
+          - generic [ref=e342]:
+            - paragraph [ref=e343]:
+              - link "Contact us" [ref=e344] [cursor=pointer]:
+                - /url: https://www.timeout.com/about/contact-us
+            - list [ref=e345]:
+              - listitem [ref=e346]:
+                - link "Advertising" [ref=e347] [cursor=pointer]:
+                  - /url: https://business.timeout.group/unitedkingdom/
+              - listitem [ref=e348]:
+                - link "Time Out Market" [ref=e349] [cursor=pointer]:
+                  - /url: https://www.timeout.com/time-out-market
+        - generic [ref=e351]:
+          - link "Site Map" [ref=e353] [cursor=pointer]:
+            - /url: /bali/sitemaps
+          - text: © 2026 Time Out England Limited and affiliated companies owned by Time Out Group Plc. All rights reserved. Time Out is a registered trademark of Time Out Digital Limited.

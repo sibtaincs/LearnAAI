@@ -1,5 +1,12 @@
 langchain
+langgraph
+langsmith
 langchain-community
 langchain-google-genai
+langchain-openai
+langchain-ollama
+langchain-groq
 pydantic
 python-dotenv
+fastapi
+uvicorn
