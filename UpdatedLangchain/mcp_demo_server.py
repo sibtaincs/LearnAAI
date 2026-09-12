@@ -12,6 +12,7 @@ How it works:
 """
 
 import os
+from pathlib import Path
 from typing import Any
 
 import httpx
@@ -19,7 +20,7 @@ from dotenv import load_dotenv
 from mcp.server.fastmcp import FastMCP
 from playwright.sync_api import sync_playwright
 
-load_dotenv()
+load_dotenv(Path(__file__).resolve().parents[1] / ".env")
 
 # Create the MCP server instance.
 # The server name is what the client will see when it discovers tools.
