@@ -11,6 +11,7 @@ How it works:
 4. The LLM can decide which tool to use based on the user request.
 """
 
+import json
 import os
 from pathlib import Path
 from typing import Any
@@ -18,7 +19,7 @@ from typing import Any
 import httpx
 from dotenv import load_dotenv
 from mcp.server.fastmcp import FastMCP
-from playwright.sync_api import sync_playwright
+from playwright.async_api import async_playwright
 
 load_dotenv(Path(__file__).resolve().parents[1] / ".env")
 
@@ -28,7 +29,7 @@ mcp = FastMCP("airbnb-tavily-demo")
 
 
 @mcp.tool()
-def search_tavily(query: str, max_results: int = 5) -> str:
+async def search_tavily(query: str, max_results: int = 5) -> str:
     """Search the web using the Tavily API.
 
     Args:
@@ -56,9 +57,10 @@ def search_tavily(query: str, max_results: int = 5) -> str:
     }
 
     try:
-        response = httpx.post(url, json=payload, timeout=30)
-        response.raise_for_status()
-        data = response.json()
+        async with httpx.AsyncClient(timeout=30) as client:
+            response = await client.post(url, json=payload)
+            response.raise_for_status()
+            data = response.json()
 
         # Keep the output easy for an LLM to read.
         results = []
@@ -72,16 +74,16 @@ def search_tavily(query: str, max_results: int = 5) -> str:
             )
 
         answer = data.get("answer", "")
-        return {
+        return json.dumps({
             "answer": answer,
             "results": results,
-        }
+        })
     except Exception as exc:  # pragma: no cover - this is a demo tool
-        return {"error": f"Tavily request failed: {exc}"}
+        return json.dumps({"error": f"Tavily request failed: {exc}"})
 
 
 @mcp.tool()
-def open_airbnb_search(city: str, check_in: str, check_out: str, guests: int = 2) -> str:
+async def open_airbnb_search(city: str, check_in: str, check_out: str, guests: int = 2) -> str:
     """Open Airbnb in a browser and return a quick summary of the page state.
 
     This is a good example of how an MCP tool can interact with a browser UI using
@@ -89,56 +91,58 @@ def open_airbnb_search(city: str, check_in: str, check_out: str, guests: int = 2
     not just use a text search API.
     """
     try:
-        with sync_playwright() as playwright:
-            browser = playwright.chromium.launch(headless=True)
-            page = browser.new_page()
+        async with async_playwright() as playwright:
+            browser = await playwright.chromium.launch(headless=True)
+            page = await browser.new_page()
 
             # Go to the Airbnb homepage.
-            page.goto("https://www.airbnb.com/", wait_until="domcontentloaded")
+            await page.goto("https://www.airbnb.com/", wait_until="domcontentloaded")
 
             # Try to fill generic search fields if the page exposes them.
             # Airbnb's UI can change often, so keep this friendly and resilient.
             try:
-                page.get_by_placeholder("Where to?").fill(city)
+                await page.get_by_placeholder("Where to?").fill(city)
             except Exception:
                 pass
 
             try:
-                page.locator('button:has-text("Search")').click()
+                await page.locator('button:has-text("Search")').click()
             except Exception:
                 pass
 
             # Give the page a moment to render.
-            page.wait_for_timeout(3000)
+            await page.wait_for_timeout(3000)
 
-            return {
+            result = {
                 "city": city,
                 "check_in": check_in,
                 "check_out": check_out,
                 "guests": guests,
-                "title": page.title(),
+                "title": await page.title(),
                 "url": page.url,
                 "description": "Airbnb page opened successfully via Playwright.",
             }
+            await browser.close()
+            return json.dumps(result)
     except Exception as exc:  # pragma: no cover - demo example
-        return {"error": f"Playwright Airbnb flow failed: {exc}"}
+        return json.dumps({"error": f"Playwright Airbnb flow failed: {exc}"})
 
 
 @mcp.tool()
-def plan_airbnb_trip(city: str, budget: str = "moderate") -> str:
+async def plan_airbnb_trip(city: str, budget: str = "moderate") -> str:
     """Create a simple travel-planning workflow for Airbnb + web research.
 
     In a real agent system, you would call Tavily first to gather destination data,
     then use Playwright to inspect the actual Airbnb page, and then summarize the best option.
     """
     search_query = f"best neighborhoods in {city} for a {budget} trip"
-    tavily_results = search_tavily(search_query, max_results=3)
-    return {
+    tavily_results = await search_tavily(search_query, max_results=3)
+    return json.dumps({
         "city": city,
         "budget": budget,
         "research": tavily_results,
         "next_step": "Open Airbnb search page for the destination and compare listings.",
-    }
+    })
 
 
 if __name__ == "__main__":
